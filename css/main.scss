@@ -1,179 +1,191 @@
 $mainColor:#c36732;
 $childeColor:#fcf9f7fa;
 $pColor:#6a6868;
-mark
-{
- color: $mainColor;
- background-color:$childeColor;
- padding: 5px;
- margin-bottom: 15px
+
+mark {
+  color: $mainColor;
+  background-color: $childeColor;
+  padding: 5px;
+  margin-bottom: 15px
 }
+
 /*Start navbar*/
-.navbar
-{
-  background-color:$childeColor;
+.navbar {
+  background-color: $childeColor;
   border: none;
   color: #000
 }
-@media (max-width:768px){
-  .navbar ul{
+
+@media (max-width:768px) {
+  .navbar ul {
     background-color: $mainColor;
   }
 }
-@media (max-width:768px){
-  .navbar .navbar-inverse .navbar-nav > li > a
-  {
-    color: $childeColor!important
+
+@media (max-width:768px) {
+  .navbar .navbar-inverse .navbar-nav>li>a {
+    color: $childeColor !important
   }
 }
-@media (max-width:768px){
-  .navbar i{
+
+@media (max-width:768px) {
+  .navbar i {
     overflow: hidden;
     display: none;
   }
 }
-@media (max-width:768px){
-  .navbar button{
+
+@media (max-width:768px) {
+  .navbar button {
     background-color: $mainColor;
     border: none
   }
 }
-.navbar .collapse
-{
+
+.navbar .collapse {
   width: 1000px
 }
-.navbar ul
-{
+
+.navbar ul {
   position: absolute;
-  left:35%;
+  left: 35%;
   color: #000
 }
-.navbar-inverse .navbar-nav > li > a:hover
-{
+
+.navbar-inverse .navbar-nav>li>a:hover {
   color: $mainColor
 }
-@media (max-width:768px){
-  .navbar-inverse ul{
+
+@media (max-width:768px) {
+  .navbar-inverse ul {
     margin-top: 0px;
     width: 100%;
     margin-left: -35%;
   }
 }
-.navbar-inverse .navbar-nav>li>a,.navbar>.container .navbar-brand
-{
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar>.container .navbar-brand {
   color: #000
 }
-@media (max-width:768px){
-  .navbar-inverse .navbar-nav>li>a{
+
+@media (max-width:768px) {
+  .navbar-inverse .navbar-nav>li>a {
     color: $childeColor
   }
 }
-@media (max-width:768px){
-  .navbar-inverse .navbar-nav>li>a:hover{
+
+@media (max-width:768px) {
+  .navbar-inverse .navbar-nav>li>a:hover {
     color: #fff
   }
 }
-.navbar i
-{
+
+.navbar i {
   margin-top: 15px;
   padding: 5px;
   border: 1px solid $mainColor;
   border-radius: 50%;
 }
-.navbar i:hover
-{
+
+.navbar i:hover {
   background-color: $mainColor;
   color: #fff
 }
-.navbar i:first-of-type:hover
-{
-  background-color: #fff;
-  color:$mainColor
-}
-.navbar .i,.navbar i:last-of-type
-{
-  color:$mainColor
-}
-.navbar i:first-of-type
-{
+
+.navbar i:first-of-type:hover {
   background-color: #fff;
   color: $mainColor
 }
+
+.navbar .i,
+.navbar i:last-of-type {
+  color: $mainColor
+}
+
+.navbar i:first-of-type {
+  background-color: #fff;
+  color: $mainColor
+}
+
 /*End navbar*/
 
 
 /*header*/
-.header
-{
+.header {
   height: 350px;
   position: relative;
   margin-top: -51px;
   padding-top: 60px;
   background-color: $childeColor;
 }
-.header .text-white
-{
+
+.header .text-white {
   margin-top: 40px;
 }
-.header .text-white h2,button
-{
+
+.header .text-white h2,
+button {
   font-weight: bold;
   margin-bottom: 15px
 }
+
 p {
-    margin-bottom: 15px;
-    line-height: 25px;
-    color: $pColor;
-  }
-.header .text-white button
-{
+  margin-bottom: 15px;
+  line-height: 25px;
+  color: $pColor;
+}
+
+.header .text-white button {
   padding: 5px 15px;
-  background-color:$childeColor;
+  background-color: $childeColor;
   border: 1px solid $mainColor;
   border-radius: 10px;
 }
-.header img
-{
+
+.header img {
   border-radius: 20px
 }
+
 /*header*/
 
 
 /*subscribe*/
-.subscribe
-{
+.subscribe {
   position: relative;
   margin-top: 550px;
 }
-@media (max-width:768px){
-  .subscribe{
+
+@media (max-width:768px) {
+  .subscribe {
     position: relative;
     display: block;
     text-align: center;
   }
 }
-@media (max-width:768px){
-  .subscribe input{
+
+@media (max-width:768px) {
+  .subscribe input {
     margin-right: 200px;
     padding-right: 25px
   }
 }
-.subscribe .container
-{
+
+.subscribe .container {
   background-color: $childeColor;
   border-radius: 10px;
   padding: 10px
 }
-.subscribe h3
-{
+
+.subscribe h3 {
   font-weight: bold;
 }
-.subscribe p
-{
+
+.subscribe p {
   color: $pColor
 }
-.subscribe input
-{
+
+.subscribe input {
   width: 100%;
   padding: 10px 5px;
   border-radius: 10px;
@@ -181,10 +193,10 @@ p {
   border: 1px solid $childeColor;
   margin-top: 25px
 }
-.subscribe button
-{
-  border-top-right-radius:10px;
-  border-bottom-right-radius:10px ;
+
+.subscribe button {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   background-color: $mainColor;
   color: #fff;
   border: none;
@@ -193,165 +205,166 @@ p {
   top: 26px;
   right: 16px
 }
+
 /*subscribe*/
 
 
 /*feat*/
-.feat
-{
+.feat {
   margin-bottom: 0px
 }
-.feat h3
-{
+
+.feat h3 {
   margin-top: 50px;
-  font-weight:bold;
+  font-weight: bold;
 }
-.feat  .col-md-3
-{
-margin-top: 50px;
-padding: 0px;
-margin: 45px;
-border-radius: 15px;
-box-shadow: 10px 10px 22px -16px;
+
+.feat .col-md-3 {
+  margin-top: 50px;
+  padding: 0px;
+  margin: 45px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 22px -16px;
 }
-.feat  .col-md-3 img
-{
+
+.feat .col-md-3 img {
   width: 100%;
   padding: 0px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
- .feat figcaption
- {
-   padding: 15px
- }
+
+.feat figcaption {
+  padding: 15px
+}
+
 /*feat*/
 
 
 /*recent*/
-.recent
-{
+.recent {
   margin-top: 50px;
   position: relative;
 }
-.recent img
-{
+
+.recent img {
   width: 100%;
   padding: 0px
 }
-.recent .col-md-4 ,.h3
-{
-margin-left: 90px;
+
+.recent .col-md-4,
+.h3 {
+  margin-left: 90px;
 }
-@media (max-width:768px){
-  .recent .col-md-4{
-    width:95%;
+
+@media (max-width:768px) {
+  .recent .col-md-4 {
+    width: 95%;
     margin-left: 15px
   }
 }
-.recent .col-md-7
-{
+
+.recent .col-md-7 {
   margin-top: 50px
 }
-.recent .col-md-4 ,.col-md-7
-{
+
+.recent .col-md-4,
+.col-md-7 {
   padding: 0px;
   border-radius: 25px;
   box-shadow: 10px 10px 22px -16px;
 }
-.recent .col-md-4 img,.col-md-7 img
-{
+
+.recent .col-md-4 img,
+.col-md-7 img {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px
 }
-.recent h3
-{
+
+.recent h3 {
   font-weight: bold;
   margin-bottom: 0px;
   border-radius: none;
   box-shadow: none
 }
-.recent .pos h3
-{
+
+.recent .pos h3 {
   font-weight: bold;
   margin-bottom: 0px;
   border-radius: none;
   box-shadow: none
 }
-.recent figcaption
-{
+
+.recent figcaption {
   padding: 20px
 }
-.recent .img img
-{
+
+.recent .img img {
   border-radius: 25px;
   height: 400px
 }
-@media (max-width:768px){
-  .recent .img:first-of-type img{
+
+@media (max-width:768px) {
+  .recent .img:first-of-type img {
     margin-top: 100px
   }
 }
-.recent .img
-{
+
+.recent .img {
   position: relative;
   margin-bottom: 100px;
   box-shadow: none
 }
-.recent .img button
-{
+
+.recent .img button {
   border-radius: 10px;
   background-color: #fff;
-  color:$mainColor;
+  color: $mainColor;
   padding: 10px 25px;
-  border:none;
+  border: none;
   position: absolute;
   bottom: 50px;
   right: 134px
 }
-@media (max-width:768px){
-  .recent button{
+
+@media (max-width:768px) {
+  .recent button {
     margin-right: 100px
   }
 }
-.recent .ba
-{
+
+.recent .ba {
   position: relative;
   margin-top: -250px
 }
-@media (max-width:768px){
-  .recent .ba img{
-    margin-top:300px
+
+@media (max-width:768px) {
+  .recent .ba img {
+    margin-top: 300px
   }
 }
+
 /*recent*/
 
 
 /*Start svg*/
-.svg
-{
+.svg {
   background-color: $childeColor;
   border-radius: 25px;
   position: relative;
   top: 35px;
   z-index: 9
 }
-.svg img
-{
+
+.svg img {
   border-radius: 40px;
   padding: 25px 0px
-}
-@media (max-width:768px){
-  .svg img{
-
-  }
 }
 /*End svg*/
 
 /*Start end*/
-.end
-{
-  background:url("../img/1135.svg");
+.end {
+  background: url("../img/1135.svg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -360,107 +373,111 @@ margin-left: 90px;
   position: relative;
   margin-top: -150
 }
-.end .overlay
-{
-  position:absolute;
+
+.end .overlay {
+  position: absolute;
   top: 0;
   left: 0;
-  width:100%;
-  height:100%;
-  background-color:$mainColor
+  width: 100%;
+  height: 100%;
+  background-color: $mainColor
 }
-.end h3
-{
+
+.end h3 {
   color: #fff;
   margin-top: 89px;
   margin-bottom: 30px
 }
-.end li
-{
+
+.end li {
   list-style: none;
   display: inline;
   margin: 15px;
 }
-@media (max-width:768px){
-  .end li{
+
+@media (max-width:768px) {
+  .end li {
     margin: 5px;
     margin-bottom: 15px
   }
 }
-.end a
-{
+
+.end a {
   color: $childeColor;
   text-decoration: none;
 }
+
 /*End end*/
 
 
 /*Start footer*/
-footer
-{
+footer {
   position: relative;
   margin-top: -135px;
   color: #fff;
   border-top: 1px solid $childeColor
 }
-@media (max-width:768px){
-  .footer{
+
+@media (max-width:768px) {
+  .footer {
     margin-right: 40%;
     margin-top: 25px
   }
 }
-@media (max-width:768px){
-  footer p{
+
+@media (max-width:768px) {
+  footer p {
     margin-left: 60px;
   }
 }
-footer p
-{
+
+footer p {
   width: 500px;
   color: #fff;
   margin-top: 30px
 }
-footer i
-{
+
+footer i {
   border: 1px solid $childeColor;
   border-radius: 50%;
   padding: 5px
 }
+
 /*End footer*/
 
 /*Start scrolltop*/
-#scroll-top
-{
+#scroll-top {
   width: 45px;
-  height:45px;
-  color:#ddd;
-  background-color:$mainColor;
-  text-align:center;
+  height: 45px;
+  color: #ddd;
+  background-color: $mainColor;
+  text-align: center;
   position: fixed;
-  right:15px;
+  right: 15px;
   bottom: 10px;
   z-index: 9999;
   border-radius: 35%
 }
+
 /*End sctolltop*/
 
 /*nicescroll*/
-.nicescroll-cursors
-{
-  background-color: $mainColor!important;
+.nicescroll-cursors {
+  background-color: $mainColor !important;
 }
-  .nicescroll-rails
-{
-  z-index: 9999!important;
+
+.nicescroll-rails {
+  z-index: 9999 !important;
 }
-.nicescroll-rails-hr
-{
+
+.nicescroll-rails-hr {
   background-color: none
 }
+
 /*nicescroll*/
 
-@media (max-width:768px){
-  body{
+@media (max-width:768px) {
+  body {
     overflow: hidden;
   }
 }
@@ -471,4 +488,5 @@ footer i
   width: 65px;
   height: 2px;
   background-color: $mainColor;
-  margin: 25px 0px; }
+  margin: 25px 0px;
+}
